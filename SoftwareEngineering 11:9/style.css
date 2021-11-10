@@ -1,0 +1,115 @@
+
+#div{
+  background-color: red;
+}
+#div2{
+  background-color: yellow;
+}
+#div3{
+  background-color: blue;
+}
+#div4{
+  background-color: green;
+}
+
+#div1, #div2, #div3, #div4 {
+  border: dashed;
+}
+
+h1{
+  color: red;
+}
+
+#Keionlist{
+  color: green;
+}
+
+tester css
+
+.container{
+  postion: relative;
+}
+nav {
+  postion: absolute;
+  left: 900px
+  width: 200px;
+}
+section {
+  /* postion is static by default */
+  margin-left: 200px;
+}
+footer {
+  postion: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px
+  background-color:white;
+  width:100%;
+}
+body {
+  margin-bottom:120px;
+}
+
+float img 
+
+img {
+  float: right;
+  margin: 0 0 lem lem;
+}
+
+box float
+
+.box {
+  float: left;
+  width: 200px
+  height: 100px
+  margin: lem;
+}
+.after-box {
+  clear: left;
+}
+.clearfix {
+  overflow: auto;
+}
+
+Responsive Design 
+
+@media (min-width:600px){
+  nav {
+    float: left;
+    width: 25%
+  }
+  section {
+    margin-left:25%;
+  }
+}
+@media (max-width:599px){
+  nav li {
+    display: inline;
+  }
+}
+
+nav{
+  display:inline-block;
+  vertical-align: top;
+  width: 25%;
+}
+.column {
+  display: inline-block;
+  vertical-align: top;
+  width: 75%;
+}
+
+simple layout with flexbox
+
+.container {
+  display: -webkit-flex;
+  display: flex;
+}
+nav {
+  width:200px
+}
+.flex-column {
+  -webkit-flex: 1;
+          flex: 1;
+}
